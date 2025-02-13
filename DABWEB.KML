@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>DABWEB</name>
+	<GroundOverlay>
+		<name>RF Analysis</name>
+		<color>6effffff</color>
+		<Icon>
+			<href>DABWEB.png</href>
+			<viewBoundScale>0.90</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>55.166937</north>
+			<south>52.094714</south>
+			<east>-5.394340</east>
+			<west>-9.635080</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<StyleMap id="msn_open-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<Style id="sh_open-diamond">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<ScreenOverlay id="Legend">
+		<name>Palette</name>
+		<description>dBuV/m / dBm</description>
+		<Icon>
+			<href>DABWEBLeg.png</href>
+		</Icon>
+		<description>dBuV/m / dBm</description>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>
+	<Placemark>
+		<name>ST: ITU000001</name>
+		<description>longitude: -6.2364
+latitude: 53.2469
+altitude: 440
+address: THREE ROCK001
+frequency 218.640000 MHz
+power: 20000.000000 W
+azimuth: 0.0 °
+antenna: 40.00 m
+info: IRL_DUB_11B_001
+networkID: IRL DAB R DUB AREA 1
+model: DAB_6
+group: </description>
+		<address>THREE ROCK001</address>
+		<info1>IRL_DUB_11B_001</info1>
+		<info2></info2>
+		<model>DAB_6</model>
+		<LookAt>
+			<longitude>-6.236389</longitude>
+			<latitude>53.246944</latitude>
+			<altitude>440.000000</altitude>
+			<frequency>218.640000</frequency>
+			<radiated_power>20000.000000</radiated_power>
+			<tilt>0.000000</tilt>
+			<azimuth>0.000000</azimuth>
+			<antenna_height>40.000000</antenna_height>
+			<horizontal_pattern>0000   0   0   0   0   3   6   6   6 6.9 7.8 8.8 9.810.711.611.8  1212.5  13  13  1311.5  10  10  10  10  10  10  10  10  10  10  10  10  10   8   6   6   6   6   6   6   6   6   6   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.236389,53.246944,440.000000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ST: ITU000002</name>
+		<description>longitude: -6.2578
+latitude: 53.5708
+altitude: 161
+address: BALBRIGGAN005
+frequency 218.640000 MHz
+power: 500.000000 W
+azimuth: 0.0 °
+antenna: 36.00 m
+info: IRL_DUB1_11B_005
+networkID: IRL DAB R DUB AREA 1
+model: DAB_6
+group: </description>
+		<address>BALBRIGGAN005</address>
+		<info1>IRL_DUB1_11B_005</info1>
+		<info2></info2>
+		<model>DAB_6</model>
+		<LookAt>
+			<longitude>-6.257778</longitude>
+			<latitude>53.570833</latitude>
+			<altitude>161.000000</altitude>
+			<frequency>218.640000</frequency>
+			<radiated_power>500.000000</radiated_power>
+			<tilt>0.000000</tilt>
+			<azimuth>0.000000</azimuth>
+			<antenna_height>36.000000</antenna_height>
+			<horizontal_pattern>0002 1.5   1 0.5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 0.5   1 1.5   2 2.5   3   4   5 5.5   6   6   6   6   6   6   6 5.5   5   4   3 2.5</horizontal_pattern>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.257778,53.570833,161.000000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ST: ITU000004</name>
+		<description>longitude: -6.4747
+latitude: 53.2458
+altitude: 402
+address: SAGGART HILL002
+frequency 218.640000 MHz
+power: 8000.000000 W
+azimuth: 0.0 °
+antenna: 36.00 m
+info: IRL_DUB_11B_002
+networkID: IRL DAB R DUB AREA 1
+model: DAB_6
+group: </description>
+		<address>SAGGART HILL002</address>
+		<info1>IRL_DUB_11B_002</info1>
+		<info2></info2>
+		<model>DAB_6</model>
+		<LookAt>
+			<longitude>-6.474723</longitude>
+			<latitude>53.245833</latitude>
+			<altitude>402.000000</altitude>
+			<frequency>218.640000</frequency>
+			<radiated_power>8000.000000</radiated_power>
+			<tilt>0.000000</tilt>
+			<azimuth>0.000000</azimuth>
+			<antenna_height>36.000000</antenna_height>
+			<horizontal_pattern>0000 0.5   1   2   3 3.5   4 4.5   5 5.5   6 6.5   7   8   9 9.5  10  10  10  10  10   8   6   4   2   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.474723,53.245833,402.000000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ST: ITU000005</name>
+		<description>longitude: -6.0900
+latitude: 53.1728
+altitude: 149
+address: BRAY HEAD003
+frequency 218.640000 MHz
+power: 8000.000000 W
+azimuth: 0.0 °
+antenna: 30.00 m
+info: IRL_DUB_11B_003
+networkID: IRL DAB R DUB AREA 1
+model: DAB_6
+group: </description>
+		<address>BRAY HEAD003</address>
+		<info1>IRL_DUB_11B_003</info1>
+		<info2></info2>
+		<model>DAB_6</model>
+		<LookAt>
+			<longitude>-6.090001</longitude>
+			<latitude>53.172778</latitude>
+			<altitude>149.000000</altitude>
+			<frequency>218.640000</frequency>
+			<radiated_power>8000.000000</radiated_power>
+			<tilt>0.000000</tilt>
+			<azimuth>0.000000</azimuth>
+			<antenna_height>30.000000</antenna_height>
+			<horizontal_pattern>0007   8   9 9.5  1010.5  11  11  11  11  11  11  11  11  1110.5  109.25 8.57.75   7   6   5   4   3 2.5   2 1.5   1 0.5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 2.5   5   6</horizontal_pattern>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.090001,53.172778,149.000000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ST: ITU000006</name>
+		<description>longitude: -6.0450
+latitude: 52.9690
+altitude: 180
+address: BALLYGUILE004
+frequency 218.640000 MHz
+power: 8000.000000 W
+azimuth: 0.0 °
+antenna: 61.00 m
+info: IRL_DUB1_11B_004
+networkID: IRL DAB R DUB AREA 1
+model: DAB_6
+group: </description>
+		<address>BALLYGUILE004</address>
+		<info1>IRL_DUB1_11B_004</info1>
+		<info2></info2>
+		<model>DAB_6</model>
+		<LookAt>
+			<longitude>-6.045000</longitude>
+			<latitude>52.969000</latitude>
+			<altitude>180.000000</altitude>
+			<frequency>218.640000</frequency>
+			<radiated_power>8000.000000</radiated_power>
+			<tilt>0.000000</tilt>
+			<azimuth>0.000000</azimuth>
+			<antenna_height>61.000000</antenna_height>
+			<horizontal_pattern>0009   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   9   6   3   3   3   3   3 1.5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 1.5   3   3   3   3   3   6   9   9   9   9   9   9</horizontal_pattern>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.045000,52.969000,180.000000</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ST: MtOriel</name>
+		<description>longitude: -6.5128
+latitude: 53.7900
+altitude: 244
+address: MOUNT ORIEL
+frequency 211.648000 MHz
+power: 10000.000000 W
+azimuth: 0.0 °
+antenna: 60.00 m
+info:      
+networkID: IRLNE
+model: DAB_6
+group: FM</description>
+		<address>MOUNT ORIEL</address>
+		<info1>     </info1>
+		<info2>     </info2>
+		<model>DAB_6</model>
+		<LookAt>
+			<longitude>-6.512778</longitude>
+			<latitude>53.790000</latitude>
+			<altitude>244.000000</altitude>
+			<frequency>211.648000</frequency>
+			<radiated_power>10000.000000</radiated_power>
+			<tilt>0.000000</tilt>
+			<azimuth>0.000000</azimuth>
+			<antenna_height>60.000000</antenna_height>
+			<horizontal_pattern>0000   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.512778,53.790000,244.000000</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
