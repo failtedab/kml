@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>DAB Transmitters</name>
+
+  <StyleMap id="msn_open-diamond">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#sn_open-diamond</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#sh_open-diamond</styleUrl>
+    </Pair>
+  </StyleMap>
+
+  <Style id="sn_open-diamond">
+    <IconStyle>
+      <scale>1.2</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+
+  <Style id="sh_open-diamond">
+    <IconStyle>
+      <scale>1.4</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+
+  <Placemark>
+    <name>Three Rock</name>
+    <description>Power: 20kW @ 218.640 MHz</description>
+    <styleUrl>#msn_open-diamond</styleUrl>
+    <Point><coordinates>-6.236389,53.246944,440</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Balbriggan</name>
+    <description>Power: 500W @ 218.640 MHz</description>
+    <styleUrl>#msn_open-diamond</styleUrl>
+    <Point><coordinates>-6.257778,53.570833,161</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Saggart Hill</name>
+    <description>Power: 8kW @ 218.640 MHz</description>
+    <styleUrl>#msn_open-diamond</styleUrl>
+    <Point><coordinates>-6.474723,53.245833,402</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Bray Head</name>
+    <description>Power: 8kW @ 218.640 MHz</description>
+    <styleUrl>#msn_open-diamond</styleUrl>
+    <Point><coordinates>-6.090001,53.172778,149</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Ballyguile</name>
+    <description>Power: 8kW @ 218.640 MHz</description>
+    <styleUrl>#msn_open-diamond</styleUrl>
+    <Point><coordinates>-6.045000,52.969000,180</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Mount Oriel</name>
+    <description>Power: 10kW @ 211.648 MHz</description>
+    <styleUrl>#msn_open-diamond</styleUrl>
+    <Point><coordinates>-6.512778,53.790000,244</coordinates></Point>
+  </Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>DABWEB Coverage Overlay</name>
+
+  <GroundOverlay>
+    <name>RF Analysis</name>
+    <color>6effffff</color>
+    <Icon>
+      <href>https://raw.githubusercontent.com/failtedab/kml/main/DABWEB.png</href>
+      <viewBoundScale>0.90</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>55.166937</north>
+      <south>52.094714</south>
+      <east>-5.394340</east>
+      <west>-9.635080</west>
+    </LatLonBox>
+  </GroundOverlay>
+
+  <ScreenOverlay id="Legend">
+    <name>Palette</name>
+    <description>dBuV/m / dBm</description>
+    <Icon>
+      <href>https://raw.githubusercontent.com/failtedab/kml/main/DABWEBLeg.png</href>
+    </Icon>
+    <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+    <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+  </ScreenOverlay>
+</Document>
+</kml>
