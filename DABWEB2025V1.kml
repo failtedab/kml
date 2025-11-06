@@ -1,9 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
-	<name>DABWEB</name>
-	<open>1</open>
-	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<name>DABWEB2025</name>
+
+	<GroundOverlay>
+		<name>RF Analysis</name>
+		<color>6effffff</color>
+		<Icon>
+			<href>https://raw.githubusercontent.com/jonathanduane/kml/main/DABWEB.png</href>
+			<viewBoundScale>0.90</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>55.166937</north>
+			<south>52.094714</south>
+			<east>-5.394340</east>
+			<west>-9.635080</west>
+		</LatLonBox>
+	</GroundOverlay>
+
 	<StyleMap id="msn_open-diamond">
 		<Pair>
 			<key>normal</key>
@@ -14,15 +28,7 @@
 			<styleUrl>#sh_open-diamond</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_open-diamond">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle></ListStyle>
-	</Style>
+
 	<Style id="sn_open-diamond">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -30,68 +36,113 @@
 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
 			</Icon>
 		</IconStyle>
-		<ListStyle></ListStyle>
 	</Style>
-	<GroundOverlay>
-		<name>RF Analysis</name>
-		<color>6effffff</color>
-		<Icon>
-			<href>DABWEB.png</href>
-			<viewBoundScale>0.9</viewBoundScale>
-		</Icon>
-		<LatLonBox>
-			<north>55.166937</north>
-			<south>52.094714</south>
-			<east>-5.39434</east>
-			<west>-9.63508</west>
-		</LatLonBox>
-	</GroundOverlay>
+
+	<Style id="sh_open-diamond">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+
 	<ScreenOverlay id="Legend">
 		<name>Palette</name>
 		<description>dBuV/m / dBm</description>
 		<Icon>
-			<href>DABWEBLeg.png</href>
+			<href>https://raw.githubusercontent.com/jonathanduane/kml/main/DABWEBLeg.png</href>
 		</Icon>
 		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
 		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
 		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-		<size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
 	</ScreenOverlay>
 
-	<!-- All your Placemark entries remain identical below -->
+	<!-- === Placemarks === -->
+
 	<Placemark>
-		<name>Three Rock Dublin</name>
-		<address>THREE ROCK001</address>
+		<name>Three Rock</name>
 		<description>longitude: -6.2364
 latitude: 53.2469
 altitude: 440
-address: Three Rock Mountain
-frequency 192.352 MHz
-power: 20000.000000 W
-azimuth: 0.0 °
-antenna: 40.00 m
-info: IRL_DUB_7C_001
-networkID: IRL DAB R DUB AREA 1
-model: DAB_6
-group:</description>
-		<LookAt>
-			<longitude>-6.236389</longitude>
-			<latitude>53.246944</latitude>
-			<altitude>440</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<range>0</range>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<frequency>218.640000</frequency><radiated_power>20000.000000</radiated_power><azimuth>0.000000</azimuth><antenna_height>40.000000</antenna_height><horizontal_pattern>0000   0   0   0   0   3   6   6   6 6.9 7.8 8.8 9.810.711.611.8  1212.5  13  13  1311.5  10  10  10  10  10  10  10  10  10  10  10  10  10   8   6   6   6   6   6   6   6   6   6   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
-		</LookAt>
+address: THREE ROCK001
+frequency: 218.640 MHz
+power: 20000 W</description>
 		<styleUrl>#msn_open-diamond</styleUrl>
 		<Point>
-			<coordinates>-6.236389,53.24694400000001,440</coordinates>
+			<coordinates>-6.236389,53.246944,440.000000</coordinates>
 		</Point>
-		<info1>IRL_DUB_11B_001</info1><info2></info2><model>DAB_6</model>
 	</Placemark>
 
-	<!-- Other placemarks unchanged -->
-	<!-- Ballbriggan, Saggart, Bray, Wicklow, Mt Oriel, etc. -->
+	<Placemark>
+		<name>Balbriggan</name>
+		<description>longitude: -6.2578
+latitude: 53.5708
+altitude: 161
+address: BALBRIGGAN005
+frequency: 218.640 MHz
+power: 500 W</description>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.257778,53.570833,161.000000</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Saggart Hill</name>
+		<description>longitude: -6.4747
+latitude: 53.2458
+altitude: 402
+address: SAGGART HILL002
+frequency: 218.640 MHz
+power: 8000 W</description>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.474723,53.245833,402.000000</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Bray Head</name>
+		<description>longitude: -6.0900
+latitude: 53.1728
+altitude: 149
+address: BRAY HEAD003
+frequency: 218.640 MHz
+power: 8000 W</description>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.090001,53.172778,149.000000</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Ballyguile</name>
+		<description>longitude: -6.0450
+latitude: 52.9690
+altitude: 180
+address: BALLYGUILE004
+frequency: 218.640 MHz
+power: 8000 W</description>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.045000,52.969000,180.000000</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Mount Oriel</name>
+		<description>longitude: -6.5128
+latitude: 53.7900
+altitude: 244
+address: MOUNT ORIEL
+frequency: 211.648 MHz
+power: 10000 W</description>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.512778,53.790000,244.000000</coordinates>
+		</Point>
+	</Placemark>
+
 </Document>
 </kml>
