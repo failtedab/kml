@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>DABWEB</name>
+    <open>1</open>
+    <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+
+    <StyleMap id="msn_open-diamond">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#sn_open-diamond</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#sh_open-diamond</styleUrl>
+        </Pair>
+    </StyleMap>
+
+    <Style id="sh_open-diamond">
+        <IconStyle>
+            <scale>1.4</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+            </Icon>
+        </IconStyle>
+        <ListStyle></ListStyle>
+    </Style>
+
+    <Style id="sn_open-diamond">
+        <IconStyle>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+            </Icon>
+        </IconStyle>
+        <ListStyle></ListStyle>
+    </Style>
+
+    <!-- RF Coverage Overlay -->
+    <GroundOverlay>
+        <name>RF Analysis</name>
+        <color>6effffff</color>
+        <Icon>
+            <href>https://raw.githubusercontent.com/failtedab/kml/main/DABWEB.png</href>
+            <viewBoundScale>0.9</viewBoundScale>
+        </Icon>
+        <LatLonBox>
+            <north>55.166937</north>
+            <south>52.094714</south>
+            <east>-5.39434</east>
+            <west>-9.63508</west>
+        </LatLonBox>
+    </GroundOverlay>
+
+    <!-- Legend Overlay -->
+    <ScreenOverlay id="Legend">
+        <name>Palette</name>
+        <description>dBuV/m / dBm</description>
+        <Icon>
+            <href>https://raw.githubusercontent.com/failtedab/kml/main/DABWEBLeg.png</href>
+        </Icon>
+        <overlayXY x="1" y="0" xunits="fraction" yunits="fraction"/>
+        <screenXY x="1" y="0" xunits="fraction" yunits="fraction"/>
+        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+        <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+    </ScreenOverlay>
+
+    <!-- TRANSMITTER SITES -->
+
+    <Placemark>
+        <name>Three Rock Dublin</name>
+        <address>THREE ROCK001</address>
+        <description>longitude: -6.2364
+latitude: 53.2469
+altitude: 440
+address: Three Rock Mountain
+frequency 192.352 MHz
+power: 20000 W
+antenna: 40 m
+networkID: IRL DAB R DUB AREA 1</description>
+        <styleUrl>#msn_open-diamond</styleUrl>
+        <Point><coordinates>-6.236389,53.246944,440</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Balbriggan</name>
+        <address>BALBRIGGAN005</address>
+        <description>longitude: -6.2578
+latitude: 53.5708
+altitude: 161
+address: Balbriggan
+frequency 192.352 MHz
+power: 250 W
+antenna: 21 m
+networkID: IRL DAB R DUB AREA 1</description>
+        <styleUrl>#msn_open-diamond</styleUrl>
+        <Point><coordinates>-6.257778,53.570833,161</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Saggart</name>
+        <address>SAGGART HILL002</address>
+        <description>longitude: -6.4747
+latitude: 53.2458
+altitude: 402
+address: Slievethoul
+frequency 215.072 MHz
+power: 3200 W
+antenna: 36 m
+networkID: IRL DAB R DUB AREA 1</description>
+        <styleUrl>#msn_open-diamond</styleUrl>
+        <Point><coordinates>-6.474723,53.245833,402</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Bray Greystones</name>
+        <address>BRAY HEAD003</address>
+        <description>longitude: -6.0900
+latitude: 53.1728
+altitude: 149
+address: Windgates
+frequency 192.352 MHz
+power: 1200 W
+antenna: 30 m
+networkID: IRL DAB R DUB AREA 1</description>
+        <styleUrl>#msn_open-diamond</styleUrl>
+        <Point><coordinates>-6.090001,53.172778,149</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Wicklow</name>
+        <address>BALLYGUILE004</address>
+        <description>longitude: -6.0450
+latitude: 52.9690
+altitude: 180
+address: Ballyguile
+frequency 192.352 MHz
+power: 3200 W
+antenna: 31 m
+networkID: IRL DAB R DUB AREA 1</description>
+        <styleUrl>#msn_open-diamond</styleUrl>
+        <Point><coordinates>-6.045,52.969,180</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Mount Oriel</name>
+        <address>MOUNT ORIEL</address>
+        <description>longitude: -6.5128
+latitude: 53.7900
+altitude: 244
+address: Collon
+frequency 176.64 MHz
+power: 8000 W
+antenna: 30 m
+networkID: IRLNE</description>
+        <styleUrl>#msn_open-diamond</styleUrl>
+        <Point><coordinates>-6.512778,53.79,244</coordinates></Point>
+    </Placemark>
+
+</Document>
+</kml>
